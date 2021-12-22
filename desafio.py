@@ -1,5 +1,5 @@
 """ importacion librerias necesarias"""
-from flask import Flask, request, redirect
+from flask import Flask, request, redirect, Response
 app = Flask(__name__)
 @app.route("/",methods=["GET"])
    
