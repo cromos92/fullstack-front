@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,15 +42,14 @@
         </div>
         <div class="seccionPedidos">
             <h2>Datos del Pedido</h2>
-            <div class="grupo">
-                <label for="size">Tamaño Pizza:</label>
-                <select id="size">
-                    <option value="Pequeña">Pequeña</option>
-                    <option value="Mediana">Mediana</option>
-                    <option value="Grande">Grande</option>
-                    <option value="XXL">XXL</option>
-            </select>
-            </div>
+            <select name="tamano" id="tamano">
+                <option value="XXL">XXL</option>
+                <option value="L">Grande</option>
+                <option value="M">Mediana</option>
+                <option value="S">Pequeña</option>
+                </select>
+                <span id="resultado_tamano"></span>
+               
             <div class="grupo">
                 <span>Ingredientes</span>
             </div>
