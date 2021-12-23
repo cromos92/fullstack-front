@@ -2,7 +2,6 @@
 from flask import Flask, request, redirect,Response
 app = Flask(__name__)
 @app.route("/",methods=["GET"])
-   
 def index():
     """ ruta index"""
     return redirect("http://localhost/prepara_pedido.html", code=302)
